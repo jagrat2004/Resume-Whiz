@@ -6,7 +6,8 @@ import { Button } from "@/components/ui/button"
 import { Navigate, Outlet } from 'react-router-dom'
 import { useUser } from '@clerk/clerk-react'
 import Header from './Components/custom/Header'
-import { Toaster } from './components/ui/sonner'
+import { Toaster } from './Components/ui/sonner'
+
 
 
 function App() {
